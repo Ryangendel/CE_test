@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#root > div,
+div[data-reactroot] {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.centerText{
+  margin-left:35%
+}
+
+.centerForm{
+  margin-left:44%
+}
+
+.centerImage{
+  margin-left:33%;
+}
+
+.diceCenter{
+  margin-left:20%
+}

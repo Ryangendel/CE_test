@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#root > div,
+div[data-reactroot] {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.move-to-center{
+  margin-left:40%;
+}
+
+.move-to-center-button{
+  margin-left:48%
+}
+
+.move-to-center-tally{
+  margin-left:48%;
+  font-size:100px;
+}

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#root > div,
+div[data-reactroot] {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background:url("https://www.toptal.com/designers/subtlepatterns/patterns/white-waves.png");
+}
+h1, h4, h2{
+font-family: 'Roboto', sans-serif;
+}
+
+.diceCenter{
+  margin-top:60px;
+  padding-left: 20%;
+
+}
+
+.centerNumber{
+  margin-left:38%
+}
+
+.centerForm{
+  margin-top:50px;
+  margin-left:37%
+}
